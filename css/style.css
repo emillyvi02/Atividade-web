@@ -1,17 +1,42 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin: 50px;
+    background-color: hsl(209, 30%, 77%);
+    color: #20354d; 
+
 }
+
+h1{
+    text-align: center;
+}
+ 
+input {
+    background-color: rgb(224, 216, 238);
+    color: #dbc2dd; 
+    border-radius: 40px;
+}
+
+button {
+    background-color: rgb(223, 213, 231);
+    color: #282a50; 
+    align-items: center;
+    display: block;
+    margin-top: 6%;
+    border-radius: 40px;
+}
+
 .container {
     margin-bottom: 20px;
 }
+
 input, button {
     margin: 5px;
     padding: 8px;
     font-size: 16px;
 }
+
 .result {
     margin-top: 10px;
     padding: 10px;
-    border: 1px solid #ddd;
 }
